@@ -16,11 +16,18 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body>
+	<body class="dark text-foreground bg-background">
 		<slot />
 	</body>
 </html>
 <style is:global>
+	/* Fonts */
+	@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+	@font-face {
+	font-family: "Dream Glory";
+	src: url("/public/fonts/fontDG.ttf");
+	}
+
 	:root {
 		--accent: 136, 58, 234;
 		--accent-light: 224, 204, 250;
@@ -33,7 +40,7 @@ const { title } = Astro.props;
 		);
 	}
 	html {
-		font-family: system-ui, sans-serif;
+		font-family: "Open Sans", sans-serif;
 		background: #13151a;
 		background-size: 224px;
 	}

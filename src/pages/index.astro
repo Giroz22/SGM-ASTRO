@@ -1,10 +1,23 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+//Components
+import SGMNavbar from '../components/SGMNavbar'
 ---
 
-<Layout title="SGM">
-	<main>	
+<Layout title="SGM" >
+	<header class="h-screen w-full">
+		<SGMNavbar client:visible/>
+	</header>
+	<main >					
 		
 	</main>
 </Layout>
 
+<style>
+	header{
+		background-image: url("/imgs/background/header.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+</style>

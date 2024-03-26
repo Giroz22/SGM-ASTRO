@@ -1,0 +1,39 @@
+<header class="h-screen w-full">
+    <div class="background">
+
+    </div>
+    <div>
+        <h1>SGM</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias suscipit doloribus asperiores amet perferendis illo consequatur magni aspernatur facilis fugiat voluptatem, quam modi molestiae nobis sit iste officiis, expedita dolorum?</p>
+    </div>
+</header>
+
+<style>
+	.background{
+		height: 100vh;
+		width: 100%;
+		background-image: url("/imgs/background/header.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;		
+	}
+	.background::after{
+		content: "";
+		width: 100%;
+		height: 100%;		
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 0;
+		backdrop-filter: brightness(40%);
+	}
+	.background::before{
+		content: "";
+		width: 100%;
+		height: 100%;		
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 0;
+		backdrop-filter: blur(2px);
+	}
+</style>

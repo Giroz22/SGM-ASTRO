@@ -42,7 +42,7 @@ export default function SGMNavbar() {
   ];
 
   return (
-    <Navbar isBordered>
+    <Navbar isBordered shouldHideOnScroll>
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle />
       </NavbarContent>

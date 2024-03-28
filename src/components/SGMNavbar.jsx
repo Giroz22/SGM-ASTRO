@@ -50,14 +50,14 @@ export default function SGMNavbar() {
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
           <AcmeLogo />
-          <p className="font-bold text-inherit">SGM</p>
+          <p className="font-bold text-inherit">S.G.M</p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarBrand>
           <AcmeLogo />
-          <p className="font-bold text-inherit">SGM</p>
+          <p className="font-bold text-inherit">S.G.M</p>
         </NavbarBrand>
 
         {menuItems.map(({ item, href }, index) => (

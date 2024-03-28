@@ -23,7 +23,7 @@ export default {
               foreground: "#000000",
             },
             focus: "#ce9f44",
-            primaryDark: "121e41",
+            primaryDark: "#121e41",
             primarylight: "#ce9f44",
             secondaryDark: "#292526",
             secondarylight: "#838b90",

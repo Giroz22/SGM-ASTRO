@@ -5,6 +5,7 @@ interface Props {
 
 const { title } = Astro.props;
 import SGMNavbar from '../components/SGMNavbar'
+import Footer from '../components/Footer.astro'
 ---
 
 <!doctype html>
@@ -20,6 +21,7 @@ import SGMNavbar from '../components/SGMNavbar'
 	<body class="dark text-foreground bg-background">		
 		<SGMNavbar client:visible/>
 		<slot />
+		<Footer/>
 	</body>
 </html>
 <style is:global>
@@ -34,7 +36,8 @@ import SGMNavbar from '../components/SGMNavbar'
 		font-family: "Open Sans", sans-serif;		
 	}
 
-	h1,h2{
+	h1,h2,h3{
 		font-family:"Dream Glory", sans-serif;
+		color: #ce9f44;
 	}
 </style>

@@ -1,28 +1,21 @@
 ---
 import {Button} from "@nextui-org/react";
+import {Image} from "@nextui-org/react";
 ---
 
-<header>
-	<div class="relative h-full p-8 flex flex-col justify-center gap-5 max-w-screen-lg w-full md:w-7/12 md:p-20">
-		<h1 class="text-4xl text-center text-primary">Consultores S.G.M S.A.S</h1>
-		<p class="text-justify tracking-wide">
-			Somos una empresa de consultores jurídicos que ofrece servicios legales y de asesoría a particulares y empresas.
-			<br/>
-			¿Tiene alguna consulta legal? Estamos dispuestos a asesorarlo.</p>
-		<Button color="primary" variant="ghost">Saber más</Button>
+<header class='relative min-h-screen w-full bg-[url("/imgs/background/header.jpg")] bg-cover bg-no-repeat bg-center flex p-8 md:p-20'>
+	<div class="relative w-full h-full flex flex-col items-center justify-around gap-4 md:flex-row">
+		<Image src="/public/imgs/logos/light-logo.png" alt="Logo SGM" className="m-auto" client:visible></Image>
+		<div class="flex flex-1 flex-col items-center gap-8">
+			<p class="text-justify tracking-wide">
+				Somos una empresa de consultores jurídicos que ofrece servicios legales y de asesoría a particulares y empresas.
+				<br/>
+				¿Tiene alguna consulta legal? Estamos dispuestos a asesorarlo.</p>
+			<Button color="primary" variant="ghost">Contactanos</Button>
+		</div>
 	</div>
 </header>
-
 <style>
-	header{
-		height: 100vh;
-		width: 100%;
-		position: relative;
-		background-image: url("/imgs/background/header.jpg");
-		background-size: cover;
-		background-repeat: no-repeat;	
-		background-position: center;	
-	}
 	header::before{
 		content: "";
 		width: 100%;

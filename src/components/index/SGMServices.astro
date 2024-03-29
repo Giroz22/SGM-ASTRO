@@ -1,0 +1,26 @@
+---
+import {Button} from "@nextui-org/react";
+import CardInfo from './CardInfo'
+
+
+const info = { 
+    urlImg: "https://img.freepik.com/free-photo/businessman-pointing-contract_1098-3393.jpg?t=st=1711671271~exp=1711674871~hmac=e82047cfc06c6817d4c19fb1f8397e8b4eaf734a7814a13cb728c811d62633c8&w=740",
+    title: "Especialización e idoneidad",
+    description:"los árbitros nombrados por el Centro de Conciliación, Arbitraje y Amigable Composición de la Cámara de Comercio de Medellín para Antioquia.",
+    href:"/Servicios" 
+}
+---
+
+<div class="min-h-screen bg-secondaryDark flex flex-col justify-center items-center p-8 gap-8 md:justify-evenly">
+    <h2 class="text-2xl text-center">Conoce más de nuestros servicios</h2>
+    <div class="flex flex-col flex-wrap items-center justify-center gap-8 md:flex-row">
+        <CardInfo props={info} client:visible />
+        <CardInfo props={info} client:visible />
+        <CardInfo props={info} client:visible />
+        <CardInfo props={info} client:visible />
+    </div>
+    <Button color="primary" variant="ghost">Más Servicios</Button>
+
+    
+</div>
+

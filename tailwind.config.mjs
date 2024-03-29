@@ -14,12 +14,25 @@ export default {
     nextui({
       themes: {
         light: {
-          colors: {},
+          colors: {
+            primary: {
+              DEFAULT: "#ce9f44",
+              foreground: "#000000",
+            },
+            secondary: {
+              DEFAULT: "#121e41",
+              foreground: "#000000",
+            },
+          },
         },
         dark: {
           colors: {
             primary: {
               DEFAULT: "#ce9f44",
+              foreground: "#000000",
+            },
+            secondary: {
+              DEFAULT: "#2653d9",
               foreground: "#000000",
             },
             focus: "#ce9f44",

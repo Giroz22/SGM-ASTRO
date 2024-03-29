@@ -4,6 +4,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
+import {ViewTransitions} from 'astro:transitions'
 import SGMNavbar from '../components/SGMNavbar'
 import Footer from '../components/Footer.astro'
 ---
@@ -16,11 +17,12 @@ import Footer from '../components/Footer.astro'
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+		<title>{title}</title>		
+		<ViewTransitions/>
 	</head>
 	<body class="dark text-foreground bg-background">		
 		<SGMNavbar client:visible/>
-		<slot />
+		<slot/>
 		<Footer/>
 	</body>
 </html>
@@ -29,7 +31,7 @@ import Footer from '../components/Footer.astro'
 	@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
 	@font-face {
 	font-family: "Dream Glory";
-	src: url("/public/fonts/fontDG.ttf");
+	src: url("/fonts/fontDG.ttf");
 	}
 
 	html {

@@ -1,6 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import Information from '../components/about/Information.astro'
+import InfoLayers from '../components/about/InfoLayers.astro'
+
+//NextUI
+import {Divider} from "@nextui-org/react";
 
 //Data
 import {aboutUs} from '../data/infoSGM';
@@ -8,11 +12,12 @@ import {aboutUs} from '../data/infoSGM';
 ---
 
 <Layout title="Sobre nosotros">
-    <main class="bg-secondaryDark">
-        <h1 class="text-4xl text-center py-20">Sobre nosotros</h1>
-        <Information {...aboutUs.history} LtoR />
+    <main class="max-w-screen-xl py-8">
+        <h1 class="text-2xl text-center py-20 md:text-4xl">Sobre nosotros</h1>
+        <Information {...aboutUs.history} LtoR={true} />
         <Information {...aboutUs.mision} LtoR={false} />
-        <Information {...aboutUs.vision} LtoR />
+        <Information {...aboutUs.vision} LtoR={true} />
         <Information {...aboutUs.values} LtoR={false} />
+        <InfoLayers/>
     </main>
 </Layout>

@@ -75,3 +75,78 @@ export const listLawyers = [
       "https://img.freepik.com/foto-gratis/joven-hombre-negocios-seguro-apuesto-que-senala-dedo-mientras-enfrenta-fondo-aislado_662251-801.jpg?t=st=1711835570~exp=1711839170~hmac=f63398d032950b32e045e40da96a8a1a246e3def6fa5dc2d4120afde9fb6499a&w=740",
   },
 ];
+
+export const listServices = [
+  {
+    urlImg:
+      "https://img.freepik.com/free-photo/businessman-pointing-contract_1098-3393.jpg?t=st=1711671271~exp=1711674871~hmac=e82047cfc06c6817d4c19fb1f8397e8b4eaf734a7814a13cb728c811d62633c8&w=740",
+    title: "Especialización e idoneidad",
+    description:
+      "los árbitros nombrados por el Centro de Conciliación, Arbitraje y Amigable Composición de la Cámara de Comercio de Medellín para Antioquia.",
+    href: "/Servicios",
+  },
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
+    title: "Asertividad en las decisiones",
+    description:
+      "los árbitros cuentan con un conocimiento especializado en determinadas áreas del derecho y con la práctica en diversos escenarios, lo cual les permite tomar decisiones asertivas y ágiles.",
+    href: "/Servicios",
+  },
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
+    title: "Plenos efectos legales",
+    description:
+      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
+    href: "/Servicios",
+  },
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
+    title: "Plenos efectos legales",
+    description:
+      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
+    href: "/Servicios",
+  },
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
+    title: "Plenos efectos legales",
+    description:
+      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
+    href: "/Servicios",
+  },
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
+    title: "Plenos efectos legales",
+    description:
+      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
+    href: "/Servicios",
+  },
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
+    title: "Plenos efectos legales",
+    description:
+      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
+    href: "/Servicios",
+  },
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
+    title: "Plenos efectos legales",
+    description:
+      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
+    href: "/Servicios",
+  },
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
+    title: "Plenos efectos legales",
+    description:
+      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
+    href: "/Servicios",
+  },
+];

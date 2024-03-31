@@ -12,13 +12,13 @@ const {title, content, imgUrl, imgDescription, LtoR} = Astro.props;
 import {Image} from "@nextui-org/react";
 ---
 
-<section class="bg-secondaryDark flex justify-center items-center p-8 md:p-20">
+<section class="bg-secondaryDark flex justify-center items-center p-8 md:p-16">
     <div 
     class:list={[
-        "w-full flex flex-col justify-around items-center gap-8 lg:gap-20",
+        "w-full flex flex-col justify-around items-center gap-8 md:gap-20",
         {
-            "lg:flex-row" : LtoR,
-            "lg:flex-row-reverse" : !LtoR
+            "md:flex-row" : LtoR,
+            "md:flex-row-reverse" : !LtoR
         }
     ]}>
         <div class="basis-1/2 text-justify">

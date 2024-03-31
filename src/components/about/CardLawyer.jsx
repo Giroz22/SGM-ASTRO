@@ -33,7 +33,7 @@ export default function CardLawyer({ props }) {
           href={props.email}
           className="w-1/2 h-full flex justify-center hover:text-[#00aae4]"
         >
-          <i class="bi bi-envelope mr-2.5"></i>
+          <i className="bi bi-envelope mr-2.5"></i>
           Email
         </Link>
         <Divider orientation="vertical" />
@@ -41,7 +41,7 @@ export default function CardLawyer({ props }) {
           href={props.whatsapp}
           className="h-full w-1/2 flex justify-center hover:text-[#25D366]"
         >
-          <i class="bi bi-whatsapp mr-2.5"></i>
+          <i className="bi bi-whatsapp mr-2.5"></i>
           Whatsapp
         </Link>
       </CardFooter>

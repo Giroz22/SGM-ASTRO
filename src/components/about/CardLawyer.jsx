@@ -13,7 +13,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default function CardLawyer({ props }) {
   return (
-    <Card className="min-w-[280px] min-h-[350px] max-w-[280px] max-h-[350px]">
+    <Card className="w-full h-auto px-8">
       <CardBody className="flex items-center justify-center">
         <Avatar
           src={props.urlPicture}

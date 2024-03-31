@@ -28,11 +28,11 @@ export default function SGMNavbar() {
       item: "Inicio",
     },
     {
-      href: "/Nosotros",
+      href: "/aboutUS",
       item: "Nosotros",
     },
     {
-      href: "/Servicios",
+      href: "/services",
       item: "Servicios",
     },
     {

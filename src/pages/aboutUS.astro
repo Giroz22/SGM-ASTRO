@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Information from '../components/about/Information.astro'
+import InfoLayers from '../components/about/InfoLayers.astro'
+import HeaderDefault from '../components/HeaderDefault.astro'
+
+//NextUI
+import {Divider} from "@nextui-org/react";
+
+//Data
+import {aboutUs} from '../data/infoSGM';
+---
+
+<Layout title="Sobre nosotros">
+    <HeaderDefault title="Sobre nosotros" urlImgBG='https://img.freepik.com/free-photo/modern-business-persons_23-2147702080.jpg?t=st=1711902650~exp=1711906250~hmac=a383fde7bdeb0adb307470ab972b82789eb92853d45876b0cd841c6fed78c1f1&w=1380'/>  
+    <main class="max-w-screen-xl py-8 m-auto">                      
+        <Information {...aboutUs.history} LtoR={true} />
+        <Information {...aboutUs.mision} LtoR={false} />
+        <Information {...aboutUs.vision} LtoR={true} />
+        <Information {...aboutUs.values} LtoR={false} />
+        <InfoLayers/>
+    </main>
+</Layout>

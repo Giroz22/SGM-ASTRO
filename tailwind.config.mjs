@@ -27,6 +27,7 @@ export default {
         },
         dark: {
           colors: {
+            background: "#292526",
             primary: {
               DEFAULT: "#ce9f44",
               foreground: "#000000",

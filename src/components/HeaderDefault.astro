@@ -1,0 +1,12 @@
+---
+interface Props{
+    title: string;
+    urlImgBG: string;
+}
+
+const {title, urlImgBG} = Astro.props;
+---
+
+<header class= {`bg-[url(${urlImgBG})] bg-center bg-no-repeat bg-cover p-24 relative before:content-[''] before:inset-0 before:absolute before:bg-[#000000b3] before:backdrop-blur-sm`}>
+    <h2 class="text-2xl text-center md:text-4xl relative">{title}</h2>
+</header>

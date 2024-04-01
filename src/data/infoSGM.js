@@ -79,75 +79,101 @@ export const listLawyers = [
 export const listServices = [
   {
     urlImg:
-      "https://img.freepik.com/free-photo/businessman-pointing-contract_1098-3393.jpg?t=st=1711671271~exp=1711674871~hmac=e82047cfc06c6817d4c19fb1f8397e8b4eaf734a7814a13cb728c811d62633c8&w=740",
-    title: "Especialización e idoneidad",
+      "https://img.freepik.com/foto-gratis/socios-comerciales-exitosos-que-discuten-contrato_1098-14790.jpg?t=st=1712004609~exp=1712008209~hmac=861df6745293b1592d1106a6734cd9dcfd7ad5cd6bc5821f508afabe589865f6&w=740",
+    title: "Asesoramiento Legal General",
     description:
-      "los árbitros nombrados por el Centro de Conciliación, Arbitraje y Amigable Composición de la Cámara de Comercio de Medellín para Antioquia.",
-    href: "/Servicios",
+      "Ofrecer orientación legal en una amplia gama de áreas, incluyendo contratos, negocios, propiedad, familia, laboral, entre otras.",
+    href: "/services",
   },
+
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/gente-sentado-escritorio-trabajando_23-2147650936.jpg?t=st=1712004651~exp=1712008251~hmac=0d41d309da4e58a7425fd0490b7b547e735a4be05d79f2ac8881f8e441e64872&w=740",
+    title: "Constitución de Empresas",
+    description:
+      "Asistencia en la creación y registro legal de nuevas empresas, incluyendo la redacción de estatutos, acuerdos de accionistas y cumplimiento normativo.",
+    href: "/services",
+  },
+
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/dos-hombres-dandose-mano_53876-63180.jpg?t=st=1712004682~exp=1712008282~hmac=d02d8f66e8d186950547278aba3916c9f81da5526c918f5242e5c065b41c6058&w=740",
+    title: "Contratos Comerciales",
+    description:
+      "Elaboración, revisión y negociación de contratos comerciales, tales como acuerdos de compraventa, contratos de arrendamiento, y contratos de distribución.",
+    href: "/services",
+  },
+
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/closeup-foto-empresario-firmando-documentos_74855-2701.jpg?t=st=1712004724~exp=1712008324~hmac=910738cb9f8b39ec3e011f52f33131399a4db0b4214ce8256f18603abbcc1bcb&w=740",
+    title: "Litigios Civiles y Comerciales",
+    description:
+      "Representación legal en litigios civiles y comerciales, incluyendo demandas, defensas, mediaciones y arbitrajes.",
+    href: "/services",
+  },
+
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/hombre-haciendo-su-proximo-movimiento_53876-64862.jpg?t=st=1712004764~exp=1712008364~hmac=51ffc3b31cee3728382c374217b6b1e960079ec96301d749310cee53d4bcab11&w=740",
+    title: "Derecho Laboral",
+    description:
+      "Asesoramiento en temas laborales, incluyendo contratos de trabajo, despidos, reclamaciones salariales, y cumplimiento normativo laboral.",
+    href: "/services",
+  },
+
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/mano-hombre-negocios-sosteniendo-bombilla-luz-brillante-pensamiento-creativo-e-inteligente-busca-inspiracion-e-innovacion-concepto-red_616485-63.jpg?t=st=1712004804~exp=1712008404~hmac=a17e68c8fd19144556f336019ffd8810f8d8c4e4aa4aee55f81e0dc2712cb6b7&w=740",
+    title: "Propiedad Intelectual",
+    description:
+      "Protección legal de activos intangibles, incluyendo marcas comerciales, patentes, derechos de autor y secretos comerciales.",
+    href: "/services",
+  },
+
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/agente-cultivo-escribiendo-bloc-notas_23-2147737928.jpg?t=st=1712004855~exp=1712008455~hmac=21bb6f35485d345d1d1905a58aa96e148807b4f7818f90f136ef1d3c8e105054&w=740",
+    title: "Planificación Patrimonial",
+    description:
+      "Asistencia en la planificación y estructuración de patrimonios familiares, sucesiones, testamentos, y fideicomisos.",
+    href: "/services",
+  },
+
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/arreglo-creativo-concepto-familia-sobre-fondo-madera_23-2148485743.jpg?t=st=1712004896~exp=1712008496~hmac=1c096df7b9479aa90221744d7e3bbc380ded93f9493b658c48d7de94eced9850&w=826",
+    title: "Derecho de Familia",
+    description:
+      "Asesoramiento y representación en casos de divorcio, custodia de menores, adopciones, y otros asuntos familiares.",
+    href: "/services",
+  },
+
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/gente-cultivos-desarrollando-borrador_23-2147785632.jpg?t=st=1712004923~exp=1712008523~hmac=251cb538df8bcd694b3960e957cf7ee26c2be33165fe2406e78fb636c562e0c4&w=740",
+    title: "Cumplimiento Normativo",
+    description:
+      "Auditorías legales y asesoramiento para garantizar el cumplimiento de normativas locales e internacionales aplicables a empresas.",
+    href: "/services",
+  },
+
+  {
+    urlImg:
+      "https://img.freepik.com/foto-gratis/persona-llaves-casa-casa-modelo-juguete-escritorio_23-2148301737.jpg?t=st=1712004949~exp=1712008549~hmac=41b8184cc310953c0e46a86c4247380d08cbe698167191f4af00cb5b225e8e86&w=740",
+    title: "Derecho Inmobiliario",
+    description:
+      "Asistencia en transacciones inmobiliarias, contratos de arrendamiento, compraventa de propiedades, y resolución de disputas relacionadas con bienes raíces.",
+    href: "/services",
+  },
+
   {
     urlImg:
       "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
     title: "Asertividad en las decisiones",
     description:
       "los árbitros cuentan con un conocimiento especializado en determinadas áreas del derecho y con la práctica en diversos escenarios, lo cual les permite tomar decisiones asertivas y ágiles.",
-    href: "/Servicios",
-  },
-  {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
-    title: "Plenos efectos legales",
-    description:
-      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
-    href: "/Servicios",
-  },
-  {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
-    title: "Plenos efectos legales",
-    description:
-      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
-    href: "/Servicios",
-  },
-  {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
-    title: "Plenos efectos legales",
-    description:
-      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
-    href: "/Servicios",
-  },
-  {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
-    title: "Plenos efectos legales",
-    description:
-      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
-    href: "/Servicios",
-  },
-  {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
-    title: "Plenos efectos legales",
-    description:
-      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
-    href: "/Servicios",
-  },
-  {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
-    title: "Plenos efectos legales",
-    description:
-      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
-    href: "/Servicios",
-  },
-  {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/joven-pareja-feliz-reuniendose-asesor-financiero-oficina-mujer-esta-estrechando-mano-agente_637285-3904.jpg?t=st=1711727606~exp=1711731206~hmac=84563ef89f9dcde693f3360061c01765860bf9ce16099a3ab27daa843bbc703e&w=740",
-    title: "Plenos efectos legales",
-    description:
-      "el laudo arbitral se asemeja a una sentencia y por tanto, la decisión tomada por los árbitros es de obligatorio e inmediato cumplimiento.",
-    href: "/Servicios",
+    href: "/services",
   },
 ];
 

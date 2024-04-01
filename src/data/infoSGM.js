@@ -4,7 +4,7 @@ export const aboutUs = {
     content:
       "This space gives you more room to expound on your message. Remember that writing effectively is an art. Start by using simple, everyday words people can easily understand. Be clear and direct to the point. Keep your thoughts flowing logically, and aim for brevity.Your ideas have a purpose, so choose words that accurately express them. Ensure your grammar is flawless as it impacts your credibility. Use the active voice whenever possible as it makes any narrative easier to read. ",
     imgUrl:
-      "https://img.freepik.com/foto-gratis/hombre-haciendo-su-proximo-movimiento_53876-64862.jpg?t=st=1711743688~exp=1711747288~hmac=516360cc1a1eb2afc8c98d5e9212521e67f63087dd9b1fbc8f55f72ff149491b&w=1380",
+      "https://img.freepik.com/foto-gratis/personas-negocios-modernos_23-2147702080.jpg?t=st=1712010214~exp=1712013814~hmac=f3463c0774cb337ec0c74d63ce12835343f87f0690c48582d6326a5e4cdb602f&w=740",
     imgDescription: "Imagen sobre Nosotros",
   },
   history: {
@@ -12,15 +12,15 @@ export const aboutUs = {
     content:
       "This space gives you more room to expound on your message. Remember that writing effectively is an art. Start by using simple, everyday words people can easily understand. Be clear and direct to the point. Keep your thoughts flowing logically, and aim for brevity.Your ideas have a purpose, so choose words that accurately express them. Ensure your grammar is flawless as it impacts your credibility. Use the active voice whenever possible as it makes any narrative easier to read. ",
     imgUrl:
-      "https://img.freepik.com/foto-gratis/hombre-haciendo-su-proximo-movimiento_53876-64862.jpg?t=st=1711743688~exp=1711747288~hmac=516360cc1a1eb2afc8c98d5e9212521e67f63087dd9b1fbc8f55f72ff149491b&w=1380",
-    imgDescription: "Imagen Misión",
+      "https://img.freepik.com/foto-gratis/recortar-mano-lupa-mapa_23-2147770903.jpg?t=st=1712010179~exp=1712013779~hmac=e2e16ecd7658a0d5885222260cfa670f51205412c3a4242222c3dc813332b520&w=740",
+    imgDescription: "Imagen Historia",
   },
   mision: {
     title: "Misión",
     content:
       "This space gives you more room to expound on your message. Remember that writing effectively is an art. Start by using simple, everyday words people can easily understand. Be clear and direct to the point. Keep your thoughts flowing logically, and aim for brevity.Your ideas have a purpose, so choose words that accurately express them. Ensure your grammar is flawless as it impacts your credibility. Use the active voice whenever possible as it makes any narrative easier to read. ",
     imgUrl:
-      "https://img.freepik.com/foto-gratis/vista-aerea-equipo-empresarial_53876-124515.jpg?t=st=1711750685~exp=1711754285~hmac=385a2f00015e26b964cb4ba66101cfd3bd68f138a96bab881ae14433df913776&w=1380",
+      "https://img.freepik.com/foto-gratis/personas-negocios-modernos_23-2147702080.jpg?t=st=1712010214~exp=1712013814~hmac=f3463c0774cb337ec0c74d63ce12835343f87f0690c48582d6326a5e4cdb602f&w=740",
     imgDescription: "Imagen Misión",
   },
   vision: {
@@ -28,7 +28,7 @@ export const aboutUs = {
     content:
       "This space gives you more room to expound on your message. Remember that writing effectively is an art. Start by using simple, everyday words people can easily understand. Be clear and direct to the point. Keep your thoughts flowing logically, and aim for brevity.Your ideas have a purpose, so choose words that accurately express them. Ensure your grammar is flawless as it impacts your credibility. Use the active voice whenever possible as it makes any narrative easier to read. ",
     imgUrl:
-      "https://img.freepik.com/foto-gratis/hombre-haciendo-su-proximo-movimiento_53876-64862.jpg?t=st=1711743688~exp=1711747288~hmac=516360cc1a1eb2afc8c98d5e9212521e67f63087dd9b1fbc8f55f72ff149491b&w=1380",
+      "https://img.freepik.com/foto-gratis/grupo-personas-trabajando-plan-negocios-oficina_1303-15861.jpg?t=st=1712010042~exp=1712013642~hmac=47fd5e364cb2084bfed5e7c8718f7969b060079e3921b1956bc89e9f622cdc67&w=740",
     imgDescription: "Imagen Visión",
   },
   values: {
@@ -36,43 +36,43 @@ export const aboutUs = {
     content:
       "This space gives you more room to expound on your message. Remember that writing effectively is an art. Start by using simple, everyday words people can easily understand. Be clear and direct to the point. Keep your thoughts flowing logically, and aim for brevity.Your ideas have a purpose, so choose words that accurately express them. Ensure your grammar is flawless as it impacts your credibility. Use the active voice whenever possible as it makes any narrative easier to read. ",
     imgUrl:
-      "https://img.freepik.com/foto-gratis/vista-aerea-equipo-empresarial_53876-124515.jpg?t=st=1711750685~exp=1711754285~hmac=385a2f00015e26b964cb4ba66101cfd3bd68f138a96bab881ae14433df913776&w=1380",
+      "https://img.freepik.com/foto-gratis/gente-negocios-alegre-llena-alegria-sala-conferencias-celebrando-diversos-colegas-nueva-oportunidad-disfrutando-reunion-victoria-oficina-sala-conferencias_482257-5101.jpg?t=st=1712009989~exp=1712013589~hmac=35241000b312673888d270cb27b1d4221f089efe5420a66f8f3edc23652b7f5f&w=740",
     imgDescription: "Imagen Valores",
   },
 };
 
 export const listLawyers = [
   {
-    name: "Juan Aguilar",
+    name: "Suzana Jiménez",
     position: "Abogado",
-    email: "AbogadoAguilar@email.com",
+    email: "abogado@email.com",
     whatsapp: "3001526788",
     urlPicture:
-      "https://img.freepik.com/foto-gratis/vista-pajaro-dibujos-animados-tridimensionales_23-2150946469.jpg?t=st=1711835126~exp=1711838726~hmac=c277d77439a452b13fd46765896383deab61d1643cb62a4ad69f7ffad9828f56&w=740",
+      "https://img.freepik.com/foto-gratis/abogada-retrato-traje-formal-portapapeles_23-2148915800.jpg?t=st=1712010489~exp=1712014089~hmac=e744deb77dae062b80b974d5d01cd76b5038c70de7bdefc60262c8077073bf06&w=360",
   },
   {
-    name: "Juan Carlos",
+    name: "Carlos Andres",
     position: "Abogado",
-    email: "AbogadoAguilar@email.com",
+    email: "abogado@email.com",
     whatsapp: "3001526788",
     urlPicture:
       "https://img.freepik.com/foto-gratis/hombre-pelo-corto-traje-negocios-que-lleva-dos-registros_549566-318.jpg?t=st=1711835527~exp=1711839127~hmac=874d54b770be8ffdc4fb44e80c3599c8100b4865243c86cd636f275d01a65c1a&w=360",
   },
   {
-    name: "Armando Casas",
+    name: "Armando Moreno",
     position: "Abogado",
-    email: "AbogadoAguilar@email.com",
+    email: "abogado@email.com",
     whatsapp: "3001526788",
     urlPicture:
       "https://img.freepik.com/foto-gratis/joven-hombre-negocios-seguro-apuesto-que-senala-dedo-mientras-enfrenta-fondo-aislado_662251-801.jpg?t=st=1711835570~exp=1711839170~hmac=f63398d032950b32e045e40da96a8a1a246e3def6fa5dc2d4120afde9fb6499a&w=740",
   },
   {
-    name: "Des Armando Casas",
+    name: "Camila Moreno",
     position: "Abogado",
-    email: "AbogadoAguilar@email.com",
+    email: "abogado@email.com",
     whatsapp: "3001526788",
     urlPicture:
-      "https://img.freepik.com/foto-gratis/joven-hombre-negocios-seguro-apuesto-que-senala-dedo-mientras-enfrenta-fondo-aislado_662251-801.jpg?t=st=1711835570~exp=1711839170~hmac=f63398d032950b32e045e40da96a8a1a246e3def6fa5dc2d4120afde9fb6499a&w=740",
+      "https://img.freepik.com/foto-gratis/empresaria-confiada-sonriente-que-presenta-brazos-cruzados_1262-20950.jpg?t=st=1712010525~exp=1712014125~hmac=ffb56cfcfd9f61372aee992705ba7f2d323a7745ee201117c525b6e97870c64d&w=740",
   },
 ];
 

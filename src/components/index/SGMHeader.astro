@@ -4,13 +4,16 @@ import {Image} from "@nextui-org/react";
 ---
 
 <header class='relative min-h-screen w-full bg-[url("/imgs/background/header.jpg")] bg-cover bg-no-repeat bg-center flex justify-center items-center p-8 md:p-20'>
-	<div class="relative w-full h-full flex flex-col items-center justify-around gap-4 md:flex-row">
-		<Image src="/imgs/logos/light-logo.png" alt="Logo SGM" className="m-auto" client:visible></Image>
-		<div class="flex flex-1 flex-col items-center gap-8">
-			<p class="text-justify tracking-wide">
+	<div class="relative w-full h-full flex flex-col items-center justify-center gap-8 md:gap-16 md:flex-row">
+		<Image src="/imgs/logos/light-logo.png" alt="Logo SGM" className=" basis-1/5 m-auto" client:visible></Image>
+		<div class="max-w-xl flex flex-col items-center gap-8 basis-3/5">
+			
+			<h3 class="text-2xl md:text-4xl text-center">Convertir desafíos en soluciones</h3>
+			<p class="text-lg text-justify">
 				Somos una empresa de consultores jurídicos que ofrece servicios legales y de asesoría a particulares y empresas.
-				<br/>
-				¿Tiene alguna consulta legal? Estamos dispuestos a asesorarlo.</p>
+				<span class="text-primary">¿Tiene alguna consulta legal?</span>
+				Estamos dispuestos a asesorarlo.
+			</p>
 			<Button color="primary" variant="ghost">Contactanos</Button>
 		</div>
 	</div>

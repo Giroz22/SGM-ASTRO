@@ -10,7 +10,7 @@ import {listServices} from '../../data/infoSGM.js';
 ---
 
 <section class="min-h-screen bg-secondaryDark flex flex-col justify-center items-center p-8 gap-8 md:justify-evenly">
-    <h2 class="text-2xl text-center">Conoce más de nuestros servicios</h2>
+    <h3 class="text-2xl text-center">Conoce más de nuestros servicios</h3>
     <div class="flex flex-col flex-wrap items-center justify-center gap-8 md:flex-row">
         {listServices.slice(0,4).map(info=><CardService props={info} client:visible />)}        
     </div>

@@ -6,7 +6,7 @@ import { listFAQ } from "../../data/infoSGM";
 
 export default function ListFAQ() {
   return (
-    <Accordion variant="bordered">
+    <Accordion variant="bordered" className="">
       {listFAQ.map((FAQ, index) => {
         return (
           <AccordionItem

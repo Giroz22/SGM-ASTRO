@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import Information from '../components/about/Information.astro'
-import InfoLayers from '../components/about/InfoLayers.astro'
+import InfoLayers from '../components/InfoLayers.astro'
 import HeaderDefault from '../components/HeaderDefault.astro'
 
 //Data
@@ -11,10 +11,10 @@ import {aboutUs} from '../data/infoSGM.js';
 <Layout title="Sobre nosotros">
     <HeaderDefault title="Sobre nosotros" urlImgBG='/public/imgs/background/header.jpg'/>  
     <main class="max-w-screen-xl py-8 m-auto">                      
+        <InfoLayers/>
         <Information {...aboutUs.history} LtoR={true} />
         <Information {...aboutUs.mision} LtoR={false} />
         <Information {...aboutUs.vision} LtoR={true} />
         <Information {...aboutUs.values} LtoR={false} />
-        <InfoLayers/>
     </main>
 </Layout>

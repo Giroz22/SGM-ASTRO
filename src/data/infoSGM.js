@@ -150,3 +150,70 @@ export const listServices = [
     href: "/Servicios",
   },
 ];
+
+export const listFAQ = [
+  {
+    question: "¿Cuáles son los servicios legales que ofrecen?",
+    answer:
+      "Ofrecemos una amplia gama de servicios legales que cubren áreas como derecho corporativo, derecho laboral, derecho civil, derecho penal, entre otros. Nuestro equipo de abogados expertos está capacitado para brindar asesoramiento y representación en diversas materias legales.",
+  },
+
+  {
+    question: "¿Cómo funcionan los honorarios y la facturación?",
+    answer:
+      "Nuestros honorarios se determinan según la complejidad del caso y el tiempo requerido para su resolución. Ofrecemos diferentes opciones de facturación, que pueden incluir honorarios por hora, tarifas fijas para servicios específicos o acuerdos de honorarios contingentes en ciertos casos.",
+  },
+
+  {
+    question:
+      "¿Qué medidas toman para garantizar la confidencialidad de la información del cliente?",
+    answer:
+      "En nuestra empresa, nos tomamos muy en serio la confidencialidad de la información del cliente. Implementamos estrictos protocolos de seguridad y confidencialidad para proteger los datos de nuestros clientes en todo momento.",
+  },
+
+  {
+    question: "¿Cuál es su experiencia en casos similares al mío?",
+    answer:
+      "Nuestro equipo de abogados cuenta con una amplia experiencia en una variedad de casos legales. Hemos manejado numerosos casos similares al suyo con éxito en el pasado y estamos preparados para ofrecerle la representación legal que necesita.",
+  },
+
+  {
+    question:
+      "¿Cómo puedo comunicarme con mi abogado y cuál es su disponibilidad?",
+    answer:
+      "Nos esforzamos por mantener una comunicación abierta y efectiva con nuestros clientes. Puede comunicarse con su abogado a través de correo electrónico, teléfono o reuniones en persona según sea necesario. Estamos disponibles para responder a sus preguntas y preocupaciones en todo momento.",
+  },
+
+  {
+    question: "¿Cuál es el proceso de trabajo en mi caso específico?",
+    answer:
+      "El proceso de trabajo variará según la naturaleza de su caso, pero generalmente incluirá una evaluación inicial, la elaboración de estrategias legales, la presentación de documentos y representación en procedimientos legales, si es necesario. Su abogado le guiará a través de cada etapa del proceso.",
+  },
+
+  {
+    question: "¿Qué sucede si no estoy satisfecho con los resultados?",
+    answer:
+      "Nuestro objetivo es lograr los mejores resultados posibles para nuestros clientes. Si no está satisfecho con los resultados obtenidos, trabajaremos diligentemente para abordar sus inquietudes y buscar soluciones alternativas para resolver su caso de manera satisfactoria.",
+  },
+
+  {
+    question:
+      "¿Tienen experiencia en litigios y resolución alternativa de conflictos?",
+    answer:
+      "Sí, nuestros abogados tienen experiencia tanto en litigios como en métodos alternativos de resolución de conflictos, como la mediación y el arbitraje. Evaluaremos su caso cuidadosamente y le recomendaremos la mejor estrategia para alcanzar sus objetivos legales.",
+  },
+
+  {
+    question:
+      "¿Qué información necesitan de mi parte para comenzar a trabajar en mi caso?",
+    answer:
+      "Para comenzar a trabajar en su caso, necesitaremos que nos proporcione detalles completos y precisos sobre su situación legal, así como cualquier documentación relevante relacionada con su caso.",
+  },
+
+  {
+    question:
+      "¿Cómo se mantienen actualizados con respecto a los cambios en la legislación y jurisprudencia?",
+    answer:
+      "Nuestro equipo legal se mantiene constantemente actualizado sobre los cambios en la legislación y la jurisprudencia mediante la participación en programas de educación continua, la investigación activa y el seguimiento de desarrollos legales relevantes en nuestro campo de práctica. Esto nos permite brindarle asesoramiento legal sólido y actualizado.",
+  },
+];

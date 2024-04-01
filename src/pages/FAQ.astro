@@ -1,9 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import HeaderDefault from '../components/HeaderDefault.astro'
-
+import ListFAQ from '../components/FAQ/ListFAQ.jsx';
 ---
 
 <Layout title='Preguntas frecuentes'>
     <HeaderDefault title="Preguntas frecuentes" urlImgBG="/imgs/background/header.jpg" />
+    <main class="max-w-screen-xl py-8 m-auto">                      
+        <section class="w-3/5 m-auto">
+            <ListFAQ client:visible />
+        </section>        
+    </main>
 </Layout>

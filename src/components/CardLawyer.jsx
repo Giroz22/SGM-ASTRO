@@ -14,10 +14,10 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 export default function CardLawyer({ props }) {
   return (
     <Card className="w-full h-[300px]">
-      <CardBody className="flex items-center justify-center">
+      <CardBody className="flex items-center justify-between">
         <Avatar
           src={props.urlPicture}
-          className="h-24 w-24 mb-4"
+          className="h-24 w-24 my-4"
           isBordered
           color="primary"
           name={props.name}

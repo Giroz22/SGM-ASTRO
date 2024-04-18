@@ -30,7 +30,7 @@ export default function CardLawyer({ props }) {
       <Divider />
       <CardFooter className="flex p-0 h-14">
         <Link
-          href={`mailto:${props.email}?subject=SGM%20asesor%C3%ADa&body=Hola%2C%20me%20podr%C3%ADas%20ayudar%20con%20una%20asesor%C3%ADa`}
+          href={`mailto:${props.email}?subject=SGM%20asesor%C3%ADa&body=Hola%2C%20me%20podr%C3%ADas%20ayudar%20`}
           className="w-1/2 h-full flex justify-center hover:text-[#00aae4]"
         >
           <i className="bi bi-envelope mr-2.5"></i>

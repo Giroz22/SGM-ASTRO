@@ -11,32 +11,28 @@ export const aboutUs = {
     title: "Historia",
     content:
       "La firma legal SGM CONSULTORES INDAGINE DI LEGGE S.A.S fue fundada en el año 2022. Sus siglas son conformadas por la abreviatura de sus CEO,  inicialmente se encuentra ubicada en Medellín. En un principio está centrada en conciliación con especialización en Derecho procesal. SGM S.A.S está dedicada a diferentes áreas del derecho, fue creciendo y ampliando su actividad a diferentes temas, ampliando su grupo en distintas áreas y servicios con pactos de proyectos, colaboración y coordinación. La firma en la actualidad mantiene colaboraciones con otras firmas, empresas comerciales con gran prestigio que tienen especialidades concretas y con plena autonomía. Actualmente existe también dentro de la firma un departamento que conforma un trabajo en equipo y genera la solución del trabajo social con colaboración en temas de asesoría legal a tipos de personas que no cuentan con un acceso a un Bufete de abogados.      Desde el primer momento SGM S.A.S tuvo un crecimiento y desarrollo suficiente para prestar servicio de forma ininterrumpida e integral con un grupo de profesionales plenamente capacitados en el ámbito    nacional e internacional.",
-    imgUrl:
-      "https://img.freepik.com/foto-gratis/recortar-mano-lupa-mapa_23-2147770903.jpg?t=st=1712010179~exp=1712013779~hmac=e2e16ecd7658a0d5885222260cfa670f51205412c3a4242222c3dc813332b520&w=740",
+    imgUrl: "/imgs/pictures/Equipo.jpeg",
     imgDescription: "Imagen Historia",
   },
   mision: {
     title: "Misión",
     content:
       "Proporcionar a nuestros clientes el mejor servicio de asesoría jurídica y contable en las diferentes áreas del derecho, con alcance integral en las áreas de gestión laboral, relaciones laborales, seguridad social, prevención de riesgos. Así como apoyo jurídico con marcos legales en procesos con las diferentes entidades gubernamentales de todo el país, además de prestar servicio mercantil, administrativo y civil. Nuestra proyección enfoca a un centro de conciliación que permita resolver los diferentes tipos de conflicto en la sociedad, generando alternativas jurídicas y proponiendo soluciones eficaces y personalizadas con un continuo acompañamiento en la toma de decisiones con fundamento en la ley, con el objetivo de lograr satisfacer las necesidades reales y dotarles de seguridad jurídica en el sector.",
-    imgUrl:
-      "https://img.freepik.com/foto-gratis/personas-negocios-modernos_23-2147702080.jpg?t=st=1712010214~exp=1712013814~hmac=f3463c0774cb337ec0c74d63ce12835343f87f0690c48582d6326a5e4cdb602f&w=740",
+    imgUrl: "/imgs/pictures/EquipoReunion.jpeg",
     imgDescription: "Imagen Misión",
   },
   vision: {
     title: "Visión",
     content:
       "Aspiramos posicionarnos como una de las más grandes firmas de referencia en el ámbito nacional en el derecho, nuestra posición propone ser la firma líder en procesos y soluciones de alta calidad, además de vernos en un tiempo no superior a diez años como una empresa líder en servicios y enfoque social que pase de generación en generación siendo reconocida por sus altos estándares de calidad, profesionalidad, prestigio y reputación propia y de sus clientes.",
-    imgUrl:
-      "https://img.freepik.com/foto-gratis/grupo-personas-trabajando-plan-negocios-oficina_1303-15861.jpg?t=st=1712010042~exp=1712013642~hmac=47fd5e364cb2084bfed5e7c8718f7969b060079e3921b1956bc89e9f622cdc67&w=740",
+    imgUrl: "/imgs/pictures/bgSaludoV2.jpeg",
     imgDescription: "Imagen Visión",
   },
   values: {
     title: "Valores",
     content:
       "This space gives you more room to expound on your message. Remember that writing effectively is an art. Start by using simple, everyday words people can easily understand. Be clear and direct to the point. Keep your thoughts flowing logically, and aim for brevity.Your ideas have a purpose, so choose words that accurately express them. Ensure your grammar is flawless as it impacts your credibility. Use the active voice whenever possible as it makes any narrative easier to read.",
-    imgUrl:
-      "https://img.freepik.com/foto-gratis/gente-negocios-alegre-llena-alegria-sala-conferencias-celebrando-diversos-colegas-nueva-oportunidad-disfrutando-reunion-victoria-oficina-sala-conferencias_482257-5101.jpg?t=st=1712009989~exp=1712013589~hmac=35241000b312673888d270cb27b1d4221f089efe5420a66f8f3edc23652b7f5f&w=740",
+    imgUrl: "/imgs/pictures/EquipoReunion2.jpeg",
     imgDescription: "Imagen Valores",
   },
 };
@@ -47,21 +43,21 @@ export const listLawyers = [
     position: "Abogada y Gerente general",
     email: "elisabethgiraldomarin@gmail.com",
     whatsapp: "+573015748914",
-    urlPicture: "",
+    urlPicture: "/imgs/pictures/Elisabeth.jpeg",
   },
   {
     name: "Eduardo Carmona Robayo",
     position: "Administrador",
     email: "eduardocr@hotmail.com",
     whatsapp: "+573058969476",
-    urlPicture: "",
+    urlPicture: "/imgs/pictures/Eduardo.jpeg",
   },
   {
     name: "Camila Vergara Gomez",
     position: "Dependiente Judicial",
     email: "sgmconsultoressas@gmail.com",
     whatsapp: "+573202543661",
-    urlPicture: "",
+    urlPicture: "/imgs/pictures/Camila.jpeg",
   },
   {
     name: "Juliana Barrientos Giraldo",

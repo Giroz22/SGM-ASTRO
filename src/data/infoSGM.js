@@ -77,101 +77,110 @@ export const listLawyers = [
 
 export const listServices = [
   {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
+    urlImg: "/imgs/SGMServices/AsesoriaJuridica.jpg",
     title: "Asesorías jurídicas y contables",
-    description: "",
+    description:
+      "Asistencia que abarca desde la interpretación de leyes y regulaciones hasta la redacción de documentos legales, la representación en procedimientos legales y la resolución de conflictos legales.",
     href: "/services",
   },
   {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
+    urlImg: "/imgs/SGMServices/DerechoPeticion.jpg",
     title: "Derechos de petición",
-    description: "",
+    description:
+      "Es un principio legal que garantiza a los individuos, grupos y organizaciones el derecho fundamental de dirigirse ante las autoridades públicas para solicitar información, presentar peticiones, quejas o reclamos, así como para obtener respuestas o soluciones a sus solicitudes. ",
     href: "/services",
   },
   {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
+    urlImg: "/imgs/SGMServices/AccionesTutela.jpg",
     title: "Acciones de tutela",
-    description: "",
+    description:
+      "Mecanismo legal utilizado para proteger los derechos constitucionales fundamentales de las personas cuando estos son vulnerados o amenazados por actos u omisiones de autoridades públicas o particulares.",
     href: "/services",
   },
   {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
+    urlImg: "/imgs/SGMServices/Demanda.jpg",
     title: "Demandas",
-    description: "",
+    description:
+      "Una demanda es un documento legal presentado ante un tribunal por una parte (demandante) contra otra parte (demandada), en el que se solicita una acción judicial para resolver un conflicto legal o reclamar un derecho.",
     href: "/services",
   },
   {
-    urlImg:
-      "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
+    urlImg: "/imgs/SGMServices/Movilidad.jpg",
     title: "Trámites ante secretarias de tránsito a nivel nacional",
-    description: "",
+    description:
+      "Procedimientos administrativos que los ciudadanos deben realizar para cumplir con las regulaciones y normativas relacionadas con el tránsito y la circulación vehicular.",
     href: "/services",
   },
   {
     urlImg:
       "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
     title: "Sucesiones",
-    description: "",
+    description:
+      "Proceso legal mediante el cual se administra y distribuye el patrimonio de una persona fallecida (llamada causante) entre sus herederos legales o designados en su testamento, siguiendo las disposiciones legales y testamentarias aplicables.",
     href: "/services",
   },
   {
     urlImg:
       "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
     title: "Celebración y elaboración de contratos civiles y comerciales",
-    description: "",
+    description:
+      "Actividades legales relacionadas con la redacción, negociación, firma y cumplimiento de contratos entre individuos, empresas u organizaciones, ya sea en el ámbito civil (por ejemplo, contratos de arrendamiento, compraventa) o en el ámbito comercial (por ejemplo, contratos de distribución, asociación).",
     href: "/services",
   },
   {
     urlImg:
       "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
     title: "Cobro jurídico de cartera",
-    description: "",
+    description:
+      "Proceso legal que involucra la recuperación de deudas impagas mediante acciones legales, como el envío de cartas de requerimiento, el inicio de procesos judiciales o la ejecución de garantías, con el fin de asegurar el pago de la deuda adeudada.",
     href: "/services",
   },
   {
     urlImg:
       "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
     title: "Trámites pensionales",
-    description: "",
+    description:
+      "Conjunto de procedimientos administrativos que deben seguirse para acceder a beneficios pensionales, tales como jubilación, pensión por invalidez o sobrevivientes, los cuales pueden variar según la legislación de cada país y el régimen pensional correspondiente.",
     href: "/services",
   },
   {
     urlImg:
       "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
     title: "Rut y Cámara de Comercio",
-    description: "",
+    description:
+      "El Registro Único Tributario (RUT) es un registro emitido por la autoridad tributaria de un país que identifica a las personas naturales o jurídicas que realizan actividades económicas y los inscribe en el sistema tributario. La Cámara de Comercio es una institución que promueve el desarrollo empresarial y económico, así como la formalización de empresas, mediante servicios como el registro mercantil, la expedición de certificados comerciales y la resolución de conflictos comerciales.",
     href: "/services",
   },
   {
     urlImg:
       "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
     title: "Divorcios",
-    description: "",
+    description:
+      "Proceso legal mediante el cual se disuelve el vínculo matrimonial entre dos personas casadas, poniendo fin a los derechos y obligaciones matrimoniales y regulando aspectos como la custodia de los hijos, la división de bienes y el pago de pensiones alimenticias.",
     href: "/services",
   },
   {
     urlImg:
       "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
     title: "Liquidación de sociedad conyugal",
-    description: "",
+    description:
+      "Proceso mediante el cual se determina y se reparte el patrimonio adquirido durante el matrimonio entre los cónyuges, una vez que se ha iniciado el proceso de divorcio o separación, teniendo en cuenta las normativas legales aplicables y los acuerdos alcanzados entre las partes.",
     href: "/services",
   },
   {
     urlImg:
       "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
     title: "Capitulaciones",
-    description: "",
+    description:
+      "Acuerdo entre los futuros esposos que establece el régimen patrimonial que regirá su matrimonio, definiendo cómo se administrarán y distribuirán los bienes durante el matrimonio y en caso de divorcio o fallecimiento.",
     href: "/services",
   },
   {
     urlImg:
       "https://img.freepik.com/foto-gratis/gente-negocios-corporativos-folleto_23-2147704553.jpg?w=740",
     title: "Ley de insolvencia",
-    description: "",
+    description:
+      "Conjunto de normas legales que regulan los procedimientos y mecanismos para manejar la insolvencia o quiebra de una persona natural o jurídica, buscando proteger los derechos de los acreedores y facilitar la reorganización o liquidación ordenada del deudor insolvente.",
     href: "/services",
   },
 ];

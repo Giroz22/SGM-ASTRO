@@ -11,7 +11,7 @@ export const aboutUs = {
     title: "Historia",
     content:
       "La firma legal SGM CONSULTORES INDAGINE DI LEGGE S.A.S fue fundada en el año 2022. Sus siglas son conformadas por la abreviatura de sus CEO,  inicialmente se encuentra ubicada en Medellín. En un principio está centrada en conciliación con especialización en Derecho procesal. SGM S.A.S está dedicada a diferentes áreas del derecho, fue creciendo y ampliando su actividad a diferentes temas, ampliando su grupo en distintas áreas y servicios con pactos de proyectos, colaboración y coordinación. La firma en la actualidad mantiene colaboraciones con otras firmas, empresas comerciales con gran prestigio que tienen especialidades concretas y con plena autonomía. Actualmente existe también dentro de la firma un departamento que conforma un trabajo en equipo y genera la solución del trabajo social con colaboración en temas de asesoría legal a tipos de personas que no cuentan con un acceso a un Bufete de abogados.      Desde el primer momento SGM S.A.S tuvo un crecimiento y desarrollo suficiente para prestar servicio de forma ininterrumpida e integral con un grupo de profesionales plenamente capacitados en el ámbito    nacional e internacional.",
-    imgUrl: "/imgs/pictures/Equipo.jpeg",
+    imgUrl: '/imgs/pictures/Equipo.jpeg',
     imgDescription: "Imagen Historia",
   },
   mision: {

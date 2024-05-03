@@ -31,14 +31,14 @@ export default function CardInfo({ props }) {
   return (
     <>
       <Button
-        className="w-[200px] h-[200px] text-wrap bg-primaryDark"
+        className="w-full md:w-[200px] h-[200px] text-wrap bg-primaryDark"
         key={"3xl"}
         onPress={() => handleOpen("3xl")}
       >
         <h3 className="text-center text-lg">{props.title}</h3>
       </Button>
 
-      <Modal size={size} isOpen={isOpen} onClose={onClose}>
+      <Modal size={size} isOpen={isOpen} onClose={onClose} placement="center">
         <ModalContent>
           {(onClose) => (
             <>
@@ -48,20 +48,20 @@ export default function CardInfo({ props }) {
                 </h2>
               </ModalHeader>
               <ModalBody>
-                <div className="flex justify-evenly gap-6">
-                  <p className="text-justify w-[50%]">{props.description}</p>
+                <div className="flex justify-evenly gap-6 flex-col-reverse md:flex-row">
+                  <p className="text-justify md:w-[50%]">{props.description}</p>
                   <Image src={props.urlImg} alt="" width={400} />
                 </div>
               </ModalBody>
               <ModalFooter className="flex justify-between">
-                <div className="flex gap-4">
+                <div className="flex md:gap-4 gap-2">
                   <Button
                     color="default"
                     variant="bordered"
                     onPress={onWhatsapp}
                     className="border-primary text-primary hover:text-white hover:border-[#25D366] hover:bg-[#25D366]"
                   >
-                    <i className="bi bi-whatsapp mr-2.5"></i>
+                    <i className="bi bi-whatsapp"></i>
                     Whatsapp
                   </Button>
                   <Button
@@ -70,12 +70,12 @@ export default function CardInfo({ props }) {
                     onPress={onEmail}
                     className="border-primary text-primary hover:text-white hover:border-[#00aae4] hover:bg-[#00aae4]"
                   >
-                    <i className="bi bi-envelope mr-2.5"></i>
+                    <i className="bi bi-envelope"></i>
                     Email
                   </Button>
                 </div>
                 <Button color="danger" variant="ghost" onPress={onClose}>
-                  Close
+                  Cerrar
                 </Button>
               </ModalFooter>
             </>

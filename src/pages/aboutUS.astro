@@ -12,9 +12,11 @@ import {aboutUs} from '../data/infoSGM.js';
     <HeaderDefault title="Sobre nosotros" urlImgBG='/public/imgs/background/header.jpg'/>  
     <main class="max-w-screen-xl py-8 m-auto">                      
         <InfoLayers/>
-        <Information {...aboutUs.history} LtoR={true} />
-        <Information {...aboutUs.mision} LtoR={false} />
-        <Information {...aboutUs.vision} LtoR={true} />
-        <Information {...aboutUs.values} LtoR={false} />
+        <div>
+            <Information {...aboutUs.history} LtoR={true} />
+            <Information {...aboutUs.mision} LtoR={false} />
+            <Information {...aboutUs.vision} LtoR={true} />
+            <Information {...aboutUs.values} LtoR={false} />
+        </div>
     </main>
 </Layout>

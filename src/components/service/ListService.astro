@@ -7,7 +7,7 @@ import {listServices} from '../../data/infoSGM.js';
 ---
 
 <section class="min-h-screen bg-secondaryDark flex flex-col justify-center items-center p-8 gap-8 md:justify-evenly">
-    <div class="flex flex-col flex-wrap items-center justify-center gap-8 md:flex-row">
+    <div class="flex flex-col flex-wrap items-center justify-center gap-4 md:flex-row md:max-w-[800px]">
         {listServices.map(info=><CardService props={info} client:visible />)}        
     </div>   
 </section>

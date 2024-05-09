@@ -24,20 +24,18 @@ export default function FormContact() {
   };
 
   const handleClose = () => {
-    setEmailField("");
+    setTelField("");
     setNameField("");
     setDescriptionField("");
     onClose();
   };
 
   //Information
-  const [emailField, setEmailField] = React.useState("");
+  const [telField, setTelField] = React.useState("");
   const [nameField, setNameField] = React.useState("");
-  const [descriptionField, setDescriptionField] = React.useState(
-    "Hola, me podrías ayudar con una asesoría"
-  );
+  const [descriptionField, setDescriptionField] = React.useState("");
   const [formSubmitted, setFormSubmitted] = React.useState(false);
-  const [isEmailInvalid, setIsEmailInvalid] = React.useState(false);
+  const [isTelValid, setIsTelInvalid] = React.useState(false);
   const [isNameInvalid, setIsNameInvalid] = React.useState(false);
   const [isDesInvalid, setIsDesInvalid] = React.useState(false);
 
@@ -47,20 +45,22 @@ export default function FormContact() {
       : true;
   };
 
+  const validateTelIsIncorrect = (tel) => {
+    return tel.match(/^3\d{9,}$/) ? false : true;
+  };
+
   const validateInputIsVoid = (data) => {
     return data === "" ? true : false;
   };
 
-  const emailChange = (email) => {
-    setEmailField(email);
+  const telChange = (tel) => {
+    setTelField(tel);
 
     if (!formSubmitted) {
       return;
     }
 
-    setIsEmailInvalid(
-      validateEmailIsIncorrect(email) || validateInputIsVoid(email)
-    );
+    setIsTelInvalid(validateTelIsIncorrect(tel) || validateInputIsVoid(tel));
   };
 
   const nameChange = (name) => {
@@ -71,16 +71,15 @@ export default function FormContact() {
     }
 
     setIsNameInvalid(validateInputIsVoid(name));
-    console.log(validateInputIsVoid(name));
   };
   const descChange = (description) => {
-    setNameField(description);
+    setDescriptionField(description);
 
     if (!formSubmitted) {
       return;
     }
 
-    setIsDesInvalid(validateInputIsVoid(description));
+    // setIsDesInvalid(validateInputIsVoid(description));
   };
 
   const handleSubmit = (e) => {
@@ -90,11 +89,8 @@ export default function FormContact() {
       setFormSubmitted(true);
     }
 
-    if (
-      validateEmailIsIncorrect(emailField) ||
-      validateInputIsVoid(emailField)
-    ) {
-      setIsEmailInvalid(true);
+    if (validateTelIsIncorrect(telField) || validateInputIsVoid(telField)) {
+      setIsTelInvalid(true);
       isCorrect = false;
     }
     if (validateInputIsVoid(nameField)) {
@@ -102,8 +98,8 @@ export default function FormContact() {
       isCorrect = false;
     }
     if (validateInputIsVoid(descriptionField)) {
-      setDescriptionField(true);
-      isCorrect = false;
+      // setIsDesInvalid(true);
+      // isCorrect = false;
     }
 
     if (isCorrect) {
@@ -116,8 +112,8 @@ export default function FormContact() {
   };
 
   const cleanForm = () => {
-    setEmailField("");
-    setIsEmailInvalid(false);
+    setTelField("");
+    setIsTelInvalid(false);
 
     setNameField("");
     setIsNameInvalid(false);
@@ -131,7 +127,7 @@ export default function FormContact() {
   const sendInfo = () => {
     const data = {
       name: nameField,
-      email: emailField,
+      tel: telField,
       description: descriptionField,
     };
     console.log(data);
@@ -145,7 +141,7 @@ export default function FormContact() {
         className=""
         onPress={() => handleOpen("2xl", "opaque")}
       >
-        Contactame
+        Agenda tu asesoría gratis
       </Button>
       <Modal
         isOpen={isOpen}
@@ -156,39 +152,39 @@ export default function FormContact() {
       >
         <ModalContent>
           <ModalHeader className="flex flex-col gap-1">
-            Formulario de contacto
+            Agenda tu asesoría
           </ModalHeader>
           <ModalBody>
             <div className="flex flex-col w-full flex-wrap md:flex-nowrap gap-4">
               <div className="flex gap-4">
                 <Input
-                  name="email"
-                  type="email"
-                  label="Correo"
-                  placeholder="Escribe tu correo"
-                  labelPlacement="outside"
-                  isInvalid={isEmailInvalid}
-                  color={isEmailInvalid ? "danger" : ""}
-                  errorMessage={isEmailInvalid && "Ingrese un correo valido"}
-                  onValueChange={emailChange}
-                />
-                <Input
                   name="nameUser"
                   type="name"
-                  label="Nombre"
-                  placeholder="Escribe tu nombre"
+                  label="Nombre *"
+                  placeholder="Nombre"
                   labelPlacement="outside"
                   isInvalid={isNameInvalid}
                   color={isNameInvalid ? "danger" : ""}
                   errorMessage={isNameInvalid && "El campo no debe estar vacio"}
                   onValueChange={nameChange}
                 />
+                <Input
+                  name="number"
+                  type="tel"
+                  label="Celular *"
+                  placeholder="Celular"
+                  labelPlacement="outside"
+                  isInvalid={isTelValid}
+                  color={isTelValid ? "danger" : ""}
+                  errorMessage={isTelValid && "Ingrese un telefono valido"}
+                  onValueChange={telChange}
+                />
               </div>
               <div className="w-full">
                 <Textarea
                   name="description"
-                  label="Descripción"
-                  placeholder="Escribe una descripción"
+                  label="Descripción (Opcional)"
+                  placeholder="Escribe la razón de tu asesoría"
                   labelPlacement="outside"
                   isInvalid={isDesInvalid}
                   color={isDesInvalid ? "danger" : ""}
@@ -203,7 +199,7 @@ export default function FormContact() {
               Close
             </Button>
             <Button color="primary" onClick={handleSubmit}>
-              Enviar
+              Agendar
             </Button>
           </ModalFooter>
         </ModalContent>

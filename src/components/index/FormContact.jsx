@@ -10,6 +10,8 @@ import {
   Input,
   Textarea,
 } from "@nextui-org/react";
+import Swal from "sweetalert2";
+import emailjs from "@emailjs/browser";
 
 export default function FormContact() {
   //Style modal
@@ -130,7 +132,36 @@ export default function FormContact() {
       tel: telField,
       description: descriptionField,
     };
-    console.log(data);
+
+    emailjs
+      .send(
+        import.meta.env.PUBLIC_YOUR_SERVICE_ID,
+        import.meta.env.PUBLIC_YOUR_TEMPLATE_ID,
+        {
+          name: data.name,
+          tel: data.tel,
+          description: data.description,
+        },
+        {
+          publicKey: import.meta.env.PUBLIC_YOUR_PUBLIC_KEY,
+        }
+      )
+      .then(
+        (response) => {
+          Swal.fire({
+            title: "Solicitud enviada!!",
+            text: "Pronto estaremos en contacto contigo",
+            icon: "success",
+          });
+        },
+        (err) => {
+          Swal.fire({
+            title: "Ocurrio un error",
+            text: "Intentalo nuevamente",
+            icon: "error",
+          });
+        }
+      );
   };
 
   return (

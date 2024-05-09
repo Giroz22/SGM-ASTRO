@@ -37,40 +37,104 @@ export default function FormContact() {
     "Hola, me podrías ayudar con una asesoría"
   );
   const [formSubmitted, setFormSubmitted] = React.useState(false);
+  const [isEmailInvalid, setIsEmailInvalid] = React.useState(false);
+  const [isNameInvalid, setIsNameInvalid] = React.useState(false);
+  const [isDesInvalid, setIsDesInvalid] = React.useState(false);
 
-  const validateEmail = (value) =>
-    value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i) ? true : false;
+  const validateEmailIsIncorrect = (email) => {
+    return email.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i)
+      ? false
+      : true;
+  };
 
-  const isEmailValid = React.useMemo(() => {
-    emailField !== "" ? true : false;
-    return validateEmail(emailField);
-  }, [emailField]);
+  const validateInputIsVoid = (data) => {
+    return data === "" ? true : false;
+  };
 
-  const isNameValid = React.useMemo(() => {
-    return nameField !== "" ? true : false;
-  }, [nameField]);
+  const emailChange = (email) => {
+    setEmailField(email);
 
-  const isDesValid = React.useMemo(() => {
-    return descriptionField !== "" ? true : false;
-  }, [descriptionField]);
-
-  const handleSubmit = (e) => {
-    setFormSubmitted(true);
-    const isValid = isEmailValid || isNameValid || isDesValid;
-    console.log(isEmailValid || isNameValid || isDesValid);
-    if (!isValid) {
-      console.log("Error");
+    if (!formSubmitted) {
       return;
     }
-    console.log(emailField, nameField, descriptionField);
-    onClose();
-    cleanForm();
+
+    setIsEmailInvalid(
+      validateEmailIsIncorrect(email) || validateInputIsVoid(email)
+    );
+  };
+
+  const nameChange = (name) => {
+    setNameField(name);
+
+    if (!formSubmitted) {
+      return;
+    }
+
+    setIsNameInvalid(validateInputIsVoid(name));
+    console.log(validateInputIsVoid(name));
+  };
+  const descChange = (description) => {
+    setNameField(description);
+
+    if (!formSubmitted) {
+      return;
+    }
+
+    setIsDesInvalid(validateInputIsVoid(description));
+  };
+
+  const handleSubmit = (e) => {
+    let isCorrect = true;
+
+    if (!formSubmitted) {
+      setFormSubmitted(true);
+    }
+
+    if (
+      validateEmailIsIncorrect(emailField) ||
+      validateInputIsVoid(emailField)
+    ) {
+      setIsEmailInvalid(true);
+      isCorrect = false;
+    }
+    if (validateInputIsVoid(nameField)) {
+      setIsNameInvalid(true);
+      isCorrect = false;
+    }
+    if (validateInputIsVoid(descriptionField)) {
+      setDescriptionField(true);
+      isCorrect = false;
+    }
+
+    if (isCorrect) {
+      sendInfo();
+      onClose();
+      cleanForm();
+    }
+
+    return;
   };
 
   const cleanForm = () => {
     setEmailField("");
+    setIsEmailInvalid(false);
+
     setNameField("");
-    setDescriptionField("Hola, me podrías ayudar con una asesoría");
+    setIsNameInvalid(false);
+
+    setDescriptionField("");
+    setIsDesInvalid(false);
+
+    setFormSubmitted(false);
+  };
+
+  const sendInfo = () => {
+    const data = {
+      name: nameField,
+      email: emailField,
+      description: descriptionField,
+    };
+    console.log(data);
   };
 
   return (
@@ -88,6 +152,7 @@ export default function FormContact() {
         onOpenChange={onOpenChange}
         size="2xl"
         backdrop="opaque"
+        placement="center"
       >
         <ModalContent>
           <ModalHeader className="flex flex-col gap-1">
@@ -102,10 +167,10 @@ export default function FormContact() {
                   label="Correo"
                   placeholder="Escribe tu correo"
                   labelPlacement="outside"
-                  isInvalid={!isEmailValid}
-                  color={!isEmailValid ? "danger" : ""}
-                  errorMessage={!isEmailValid && "Ingrese un correo valido"}
-                  onValueChange={setEmailField}
+                  isInvalid={isEmailInvalid}
+                  color={isEmailInvalid ? "danger" : ""}
+                  errorMessage={isEmailInvalid && "Ingrese un correo valido"}
+                  onValueChange={emailChange}
                 />
                 <Input
                   name="nameUser"
@@ -113,10 +178,10 @@ export default function FormContact() {
                   label="Nombre"
                   placeholder="Escribe tu nombre"
                   labelPlacement="outside"
-                  isInvalid={!isNameValid}
-                  color={!isNameValid ? "danger" : ""}
-                  errorMessage={!isNameValid && "El campo no debe estar vacio"}
-                  onValueChange={setNameField}
+                  isInvalid={isNameInvalid}
+                  color={isNameInvalid ? "danger" : ""}
+                  errorMessage={isNameInvalid && "El campo no debe estar vacio"}
+                  onValueChange={nameChange}
                 />
               </div>
               <div className="w-full">
@@ -125,11 +190,10 @@ export default function FormContact() {
                   label="Descripción"
                   placeholder="Escribe una descripción"
                   labelPlacement="outside"
-                  isInvalid={!isDesValid}
-                  color={!isDesValid ? "danger" : ""}
-                  errorMessage={!isDesValid && "El campo no debe estar vacio"}
-                  onValueChange={setDescriptionField}
-                  value={descriptionField}
+                  isInvalid={isDesInvalid}
+                  color={isDesInvalid ? "danger" : ""}
+                  errorMessage={isDesInvalid && "El campo no debe estar vacio"}
+                  onValueChange={descChange}
                 />
               </div>
             </div>
